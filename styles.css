@@ -2,6 +2,7 @@ body {
     font-family: Trebuchet, Arial, sans-serif;
     background-color: #3B3F45;
     margin: 0;
+    border: 10px solid white;
 }
 
 header{
