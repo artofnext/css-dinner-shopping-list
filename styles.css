@@ -22,6 +22,15 @@ h1 {
 
 small {
     font-size: 0.7em;
+    color: #A3A0B5;
+}
+
+small::before {
+    content: "(";
+}
+
+small::after {
+    content: ")";
 }
 
 p {
@@ -60,6 +69,10 @@ li:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     transition: all .2s ease-in;
+}
+
+li:active {
+    background-color: #EB7E7F;
 }
 
 .centered {
